@@ -13,6 +13,7 @@
 
 */
 
+/* In the styles below, I have set the actual page height and adjusted the basic layout of the page like it's height, width, etc. */
 /* Window and Body Styles */
 html {
     height: 100%;
@@ -35,6 +36,7 @@ a {
     box-sizing: border-box;
 }
 
+/* In the line of code underneath, I have used the style that prevents container collaspe. */
 /* Row Styles */
 .row::after {
     clear: both;
@@ -42,6 +44,7 @@ a {
     display: table;
 }
 
+/* Underneath I have adjusted what the header and nav will look like. By changing their placement and size.  */
 /* Page Header Styles */
 body>header>img {
     display: block;
@@ -61,6 +64,7 @@ header>nav>ul>li>a {
     width: 100%;
 }
 
+/* In the style underneath, I have changed the qualities of the horizontal nav and have given it an even amount of space around it. */
 /* Horizontal Navigation List Styles */
 nav.horizontal ul>li {
     display: block;
@@ -68,6 +72,7 @@ nav.horizontal ul>li {
     float: left;
 }
 
+/* Underneath I have edited the look of the unordered list by changing the amount of space around it, such as the padding and margin. I have also centered it by changing the margin size on the left and right. */
 /* Topics Styles */
 ul#topics>li {
     display: block;
@@ -92,11 +97,13 @@ ul#topics img {
     margin-right: auto;
 }
 
+/* In the line of code underneath, I have changed the amount of space between two seperate elements or the thematic break. */
 /* HR Styles */
 hr {
     width: 50%;
 }
 
+/* In the chunck of styles underneath I have edited the sizing of the comments and the list that they reside in. I have also changed their positioning. */
 /* Customer Comment Styles */
 ul#comments {
     width: 75%;
@@ -126,6 +133,7 @@ ul#comments li p {
     width: 70%;
 }
 
+/* In the final style below, I have removed anything that is floating around the footer. */
 /* Footer Styles */
 footer {
     clear: both;
